@@ -188,7 +188,10 @@ header p {
     .blog-container {
         padding: 10px;
     }
+#contact-form-container{
+    width: 100%; max-width: 300px;  border-radius: 10px; margin-top: 20px;
 
+}
     header h1 {
         font-size: clamp(1.2em, 5vw, 1.5em);
     }
@@ -212,6 +215,7 @@ footer {
 
 /* Updated Form Container Styling */
 #contact-form-container {
+    border-radius: 10px;
     position: fixed;
     top: 50%;
     left: 50%;
